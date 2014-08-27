@@ -1,0 +1,17 @@
+#JSGF V1.0;
+grammar sentence;
+
+public <sentence> =
+[<dato0>]
+[<dato1>]
+[<dato2>]
+[<dato3>]
+[<dato4>]
+[<dato5>];
+
+<dato0>=niukanchi;
+<dato1>=sukta;
+<dato2>=kusilla;
+<dato3>=ankas;
+<dato4>=auaki;
+<dato5>=kilkanakaspi;

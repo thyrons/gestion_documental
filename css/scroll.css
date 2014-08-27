@@ -1,0 +1,35 @@
+/* Area de deslizamiento */
+#left {
+	width: 900px;
+	height: 200px;
+	overflow: hidden;
+	border: 3px solid black;
+	padding: 0px;
+	clear:both;
+	}
+
+/* Imagen */
+#left img {
+	height: 200px;
+	margin: 0px;
+	border: 0px;
+	clear:both;
+	}
+	
+/* Area de dezlizamiento */
+#right {
+	width: 900px;
+	height: 200px;
+	overflow: hidden;
+	
+	padding: 0px;
+	clear:both;
+	}
+
+/* Imagen */
+#right img {
+	height: 200px;
+	margin: 0px;
+	border: 0px;
+	clear:both;
+	}

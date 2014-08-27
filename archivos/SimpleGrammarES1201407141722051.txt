@@ -1,0 +1,27 @@
+#JSGF V1.0;
+grammar sentence;
+
+public <sentence> =
+[<dato0>]
+[<dato1>]
+[<dato2>]
+[<dato3>]
+[<dato4>]
+[<dato5>]
+[<dato6>]
+[<dato7>]
+[<dato8>];
+
+
+<dato0>=imanasha;
+<dato1>=kayakaman;
+<dato2>=jatarichi;
+<dato3>=jariguagua;
+<dato4>=uarmiguagua;
+<dato5>=mikunauku;
+<dato6>=jatunmama;
+<dato7>=changa;
+<dato8>=quirukuna;
+
+
+

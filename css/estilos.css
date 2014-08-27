@@ -1,0 +1,901 @@
+@font-face {/*tipo de de letra*/
+    font-family: "gestion";
+    src: url("../fonts/fontawesome-webfont.eot");
+}
+.negrita td {
+	font-weight : bold !important
+}
+#nombreUsuario{
+	font-weight : bold !important;
+	padding-left:10px !important; 
+}
+.normal td {
+	font-weight : 200 !important
+}
+html, body
+{		
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color:#000;	
+	font-size: 16px;	
+	background: url("../imagenes/1.jpg");	
+	background-attachment: fixed;
+	background-size: 100%;	
+	font-family: gestion;
+}
+.ui-tooltip div {
+  font-size:0.6em;
+  }
+header nav, h1, #usuario
+{
+	/*background: #ECECEC;*/
+	background: -moz-linear-gradient(#f5f5f5, #c4c4c4); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#f5f5f5, #c4c4c4); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #c4c4c4)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#f5f5f5, #c4c4c4); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#f5f5f5, #c4c4c4); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#c4c4c4'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#c4c4c4')"; /* IE8+ */  
+    background: linear-gradient(#f5f5f5, #c4c4c4); /* the standard */ 
+	box-shadow: 0px 0px 10px #000;
+}
+nav ul
+{	
+	padding:0;	
+	width:100%;		
+	font-family: gestion;
+}
+nav ul li
+{
+	list-style:none;
+	display:inline-block;
+	border-left:2px solid #000;
+	height:100%;
+	width:30%;
+	padding:0 0 0.2em 0;
+	text-align:center;	
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:#000;
+	font-size:0.9em;
+	font-weight:bold;	
+}
+tr{
+	cursor: pointer;
+}
+#logo
+{
+	margin-top:0;		
+	margin-bottom:0;
+}
+#logo img
+{
+	margin-top:1em;
+	width:100%;	
+}
+#logo a
+{
+	display:block;	
+}
+#logo a > span
+{
+	display:none;
+}
+#usuario{
+	height: 50px;
+}
+#usuario label{
+	padding: 0;
+	margin: 0;
+	font-family: gestion;
+	font-size: 0.8em;
+	height: 30px;
+	margin-top: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+#usuario input{
+	padding: 0;
+	margin: 0;
+	font-family: gestion;
+	font-size: 0.8em;	
+	height: 25px;	
+	margin-top: 10px;
+}
+#galeria #right {
+	width:100%;	
+	box-shadow: 0px 0px 10px #000;
+}
+#contenidoCentro{	
+	box-shadow: 0px 0px 10px #000;	
+	display: inline-table;		
+}	
+footer div
+{
+	font-family:gestion;
+	font-size:0.45em;
+	/*background: #ECECEC;*/
+	background: -moz-linear-gradient(#f5f5f5, #c4c4c4); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#f5f5f5, #c4c4c4); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #c4c4c4)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#f5f5f5, #c4c4c4); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#f5f5f5, #c4c4c4); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#c4c4c4'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#c4c4c4')"; /* IE8+ */  
+    background: linear-gradient(#f5f5f5, #c4c4c4); /* the standard */ 		
+	box-shadow: 0px 0px 10px #000;		
+}
+footer div h2{	
+	text-align: center;	
+}
+#formularios{
+	box-shadow: 0px 0px 10px #000;
+	display: inline-table;	
+	background: rgba(255, 255, 255, 1);	
+	padding-bottom: 20px;	
+}
+#formularios h2{	
+	text-align: center;
+	font-size: 1.3em;
+	font-family: gestion;	
+	color: #3276B1;	
+}
+#formularios h4{	
+	text-align: center;
+	font-size: 1em;
+	font-family: gestion;	
+	color: #3276B1;	
+}
+#formularios h2 label{
+	background: rgba(209, 202, 202, 0.5);
+	border-radius: 5px;
+	padding: 6px;	
+}
+#formularios h4 label{
+	background: rgba(209, 202, 202, 0.5);
+	border-radius: 5px;
+	padding: 6px;	
+}
+/*-------------------*/
+#formularios h3{	
+	text-align: right;	
+	font-size: 0.9em;
+	font-family: gestion;
+	margin: 0;	
+	padding-right: 10px;
+	font-weight: 550;	
+	color: #000;	
+	margin-top: 5px;	
+}
+
+#formularios input{		
+	font-size: 0.9em;
+	font-family: gestion;
+	margin: 0;
+	padding: 0;	
+	border:1px solid #000;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;	
+	height: 30px;	
+	
+}
+#formularios form select{		
+	font-size: 0.9em;
+	font-family: gestion;
+	margin: 0;
+	padding: 0;	
+	border:1px solid #000;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;		
+	height: 30px;	
+}
+#formularios input:required, #formularios textarea:required {
+	background: #fff url(../imagenes/red_asterisk.png) no-repeat 98% center;
+}
+#formularios input:required:valid, #formularios textarea:required:valid {
+	background: #fff url(../imagenes/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #5cd053;
+}
+#formularios input:focus:invalid, #formularios textarea:focus:invalid {
+	background: #fff url(../imagenes/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+#formularios .button-flat-action
+{
+	background: #3276B1;
+}
+#formularios .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmLogin .button-flat-action
+{
+	background: #3276B1;
+}
+#frmlogin .button-flat-action:hover
+{
+	background: #0F5694;
+}
+
+#frmCambioPass .button-flat-action
+{
+	background: #3276B1;
+}
+#frmCambioPass .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmGraficoPeso .button-flat-action
+{
+	background: #3276B1;
+}
+#frmGraficoPeso .button-flat-action:hover
+{
+	background: #0F5694;
+}
+/*--------------------*/
+#frmProcesos .button-flat-action
+{
+	background: #3276B1;
+	width: 60%;
+	margin-left: 10%;
+	text-align: center;
+	color: #fff;
+}
+#frmProcesos .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmProcesos .button-flat-action
+{
+	background: #3276B1;
+	width: 60%;
+	margin-left: 10%;
+	text-align: center;
+	color: #fff;
+}
+#frmProcesos .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmProcesos .button-flat-action
+{
+	background: #3276B1;
+	width: 60%;
+	margin-left: 10%;
+	text-align: center;
+	color: #fff;
+}
+#frmProcesos .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmProcesos .button-flat-action
+{
+	background: #3276B1;
+	width: 60%;
+	margin-left: 10%;
+	text-align: center;
+	color: #fff;
+}
+#frmProcesos .button-flat-action:hover
+{
+	background: #0F5694;
+}
+/*--------------------*/
+#frmBuscador .button-flat-action
+{
+	background: #3276B1;
+	font-size: 0.9em;
+	color: #fff;
+}
+#frmBuscador .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmMeta .button-flat-action
+{
+	background: #3276B1;
+	font-size: 0.9em;
+	color: #fff;
+}
+#frmMeta .button-flat-action:hover
+{
+	background: #0F5694;
+}
+#frmBuscador{
+	font-family: gestion;
+	font-size: 0.8em;
+}
+#frmBuscador h3
+{
+	padding: 10px;
+	margin: 0;
+}
+#frmBuscador label
+{
+	font-weight: 600;
+}
+#buscador_por
+{
+	width: 30%;
+	font-family: gestion;
+	height: 28px;
+}
+#buscar_p
+{
+	width: 52%;
+	font-family: gestion;
+	height: 24px;
+	padding-left: 10px;
+}
+#frmBuscador .ui-jqgrid {	
+	border-radius: 0px;	
+	font-family: gestion;
+	font-size: 12px;
+}
+#frmBuscador .ui-jqgrid .ui-jqgrid-bdiv {
+	font-size: 12px;
+}
+
+#frmBuscador .ui-jqgrid .ui-pg-input {		
+	font-size: 0.8em;
+	margin: 0;
+	border:0;
+	height: 20px;
+}
+/*-------------------*/
+#formularios #botonera{
+	padding-top: 20px;
+	text-align: center;	
+}
+div.ui-dialog{
+	font-family: gestion;
+}
+
+#frmLogin input{
+	font-family: gestion;
+	width: 80%;
+	padding: 5px;	
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#frmLogin #botones1{
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -20px;	
+}
+#frmLogin #botones1 a{
+	color: #fff;
+}
+#frmCambioPass input{
+	font-family: gestion;
+	width: 80%;
+	padding: 5px;	
+	padding-left: 10px;
+	margin-top: 10px;
+}
+#frmCambioPass #botones1{
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -20px;	
+}
+#frmCambioPass #botones1 a{
+	color: #fff;
+}
+#frmGraficoPeso #botones1{
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -20px;	
+}
+#frmGraficoPeso #botones1 a{
+	color: #fff;
+}
+#formularios #botones1{
+	text-align: right;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#formularios #botones2{
+	text-align: right;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#formularios #botones3{
+	text-align: right;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#formularios #botones4{
+	text-align: right;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#formularios #botones5{
+	text-align: right;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#formularios #pager{
+	width: 100%;
+
+}
+#formularios hr {
+	box-shadow: 0px 0px 10px #000;	
+}
+#formularios .ui-jqgrid {
+	width: 98%;	
+	border-radius: 0px;	
+	font-family: gestion;
+	font-size: 12px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#formularios .ui-jqgrid .ui-jqgrid-bdiv {
+	font-size: 12px;
+}
+#formularios #buscador{
+	display: none;	
+}
+
+#formularios .ui-jqgrid .ui-pg-input {		
+	font-size: 0.8em;
+	margin: 0;
+	border:0;
+	height: 20px;
+}
+/*para el acordeon*/
+ .acordeon{
+    padding:0;
+    margin: 0;
+    list-style:none;
+    width:100%;
+    font-size:18px;
+    background:#c1c1c1;
+    border: 0 solid rgba(0,0,0,0.8);    
+} 
+.acordeon li a{
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    background:#ECECEC;
+    text-decoration:none;
+    color:#161515;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    filter: dropshadow(color=#000, offx=1, offy=0);
+    padding:10px;    
+    padding-left:20px;    
+} 
+.acordeon li ul li a{
+    font-size:14px;
+    color:#47689d;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);         
+} 
+.acordeon li a:hover{
+    background:#4a6ba2;
+    color:#fff;
+    transition: background 0.3s ease-in;    
+} 
+.acordeon ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:0;
+    overflow: hidden;
+    transition: width 2s ease, height 2s ease;  
+}
+ 
+.acordeon li:hover ul{
+    height:180px;
+    overflow-y:auto;
+    overflow-x:hidden;    
+
+}  
+.acordeon ul li a{
+    background:#fafafa;
+} 
+.acordeon ul li a:hover {
+	background: none repeat scroll 0 0 #ccc;
+    color: #fff;
+    transition: color 0.4s ease;    
+}
+.acordeon li ul p{
+	font-size: 0.9em;
+	margin: 0;	
+	width: 90%;
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.acordeon li ul h3{
+	font-size: 1.3em;
+	margin: 0;	
+	width: 90%;
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*------*/
+#formularios #medioUser{
+		display: none;	
+	}
+	#formularios #menu_medio{
+		margin: 0;
+		padding: 0;
+		border-left: solid 1px;
+		border-left-style: dotted;
+	}	
+	#formularios #menu_medio1{
+		margin: 0;
+		padding: 0;
+		border-left: solid 1px;
+		border-left-style: dotted;
+
+	}	
+	#formularios #menu_medioH{
+		margin: 0;
+		padding: 0;
+		border-left: solid 1px;
+		border-left-style: dotted;
+	}	
+	#formularios #menu_medioH{
+		margin: 0;
+		padding: 0;
+		border-left: solid 1px;
+		border-left-style: dotted;
+
+	}	
+	#formularios #menu_medio{
+		margin: 0;
+		padding: 0;
+		min-height: 400px;
+	}
+	#formularios #menu_medio1{
+		margin: 0;
+		padding: 0;				
+		min-height: 300px;
+		
+	}
+	#formularios #docRecibidos li
+	{
+		background: rgba(137, 164, 213, 0.47);
+	}
+	#formularios #tablaNuevo{
+		width: 100%;		
+		font-size: 0.8em;
+		margin-top: 10px;
+		margin-left: 1%;
+		
+		table-layout: fixed;
+	}
+	#formularios #tablaNuevo thead{		
+		background: rgba(137, 164, 213, 0.47);			
+	}
+	#formularios #tablaNuevo thead th{		
+		border: solid 1px;
+	}
+	#formularios #tablaNuevo td{		
+		border: solid 1px;
+		text-align: center;
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+
+	 #tablaMeta{	
+	 	width: 100%;	
+		font-size: 0.8em;				
+		margin-left: 1%;
+	}
+	#tablaMeta thead{		
+		background: rgba(137, 164, 213, 0.47);			
+	}
+	#tablaMeta thead th{		
+		border: solid 1px;
+		
+	}
+	 #tablaMeta td{		
+		border: solid 1px;
+		text-align: center;
+		
+	}
+	#formularios #btnBuscar
+	{				
+		font-size: 0.8em;		
+	}	
+	#formularios #btnBuscar1
+	{				
+		margin-left: 15px;
+		font-size: 0.8em;
+		width: 60%;
+		margin-top: 15px;		
+	}	
+	#formularios #btnMeta
+	{		
+		margin-left: 15px;
+		font-size: 0.8em;
+		width: 60%;
+
+	}	
+	#formularios #btnEnviar
+	{		
+		margin-left: 15px;
+		font-size: 0.8em;		
+	}	
+	#formularios #menuGestion
+	{
+		font-size: 0.9em;
+		font-weight: bolder;
+		font-family: gestion;
+		margin: 0;
+		padding: 20px;	
+	}
+	#formularios #menuGestion li
+	{
+		list-style-type: none;				
+	}
+	#formularios #menuGestion a
+	{
+		text-decoration: none;
+		color:rgba(33, 114, 117, 0.92)
+	}
+	/*-------*/
+	#datosArchivo h4{
+		margin: 0;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	#datosArchivo h3{
+		font-size: 0.84em;
+	}
+	#datosArchivo textarea{
+		font-family: gestion;
+		font-size: 0.9;
+		border: solid 1px #000;
+	}
+	#datosArchivo select{
+		font-family: gestion;
+		font-size: 0.9;
+		border: solid 1px #000;
+		height: 28px;
+		margin: 0;
+	}
+	div.ui-datepicker {
+		font-family: gestion;
+    	font-size: 0.8em;
+	}
+	/*-------*/
+	#formularios #menu_medio fieldset{		
+		padding: 10px 4% 10px 4%;		
+		width: 92%;
+		font-family: gestion;
+	}
+	#formularios #menu_medio fieldset input{		
+		width: 30%;
+		margin-right: 10px;
+	}
+	 #tipo{		
+		font-family: gestion;
+		font-size: 1em;
+		width: 70%;
+		margin-right: 10px;
+		height: 28px;
+	}
+	#depTipo select {		
+		font-family: gestion;
+		font-size: 1em;
+		width: 35%;
+		margin-right: 10px;
+		height: 28px;
+	}
+	#formularios #menu_medio fieldset legend{		
+		font-weight: bold;
+	}
+	#formularios #menu_medio fieldset a{		
+		float: right;
+	}
+#frmMeta {
+	font-family: gestion;
+	font-size: 0.9em;
+}
+#frmMeta h3{
+	margin: 0;
+}
+#frmMeta input{
+	width: 95%;
+	height: 28px;
+	margin-bottom: 10px;	
+	font-family: gestion;
+	padding-left: 10px;
+}
+/*-----*/
+#datosUser{
+	font-weight: bold;
+}
+.estilo{
+	background: rgba(17, 89, 197, 1);
+	text-decoration: none;
+	color: #fff;
+	border-radius: 2px;
+	padding: 2px;
+
+}
+.estilo:hover{	
+	color: #fff;
+	
+}
+/*   */
+.tr_hover {background-color: #ffccee}
+/**/
+
+@media screen and (min-width:768px) and (max-width:1000px){
+	#formularios #btnBuscartexto{
+		width: 80px;
+	}
+}		
+@media screen and (max-width:767px){
+	#usuario{
+		height: 75px;
+	}
+	#usuario input{
+		margin-top: -5px;
+	}
+	/*Menu Pprincial*/
+	#menuPrincipal
+	{	
+		width:100%;
+		margin:0;
+		padding:0;		
+	}		
+	#menuPrincipal ul#nav li {    	
+    	width: 45% !important; 
+	}	
+	#menuPrincipal ul#nav .subs {   
+    width:130px;    
+	}
+	#menuPrincipal ul#nav ul a {    
+    font-size:10px;      	
+    border-width:0 0 1px;
+    color:#000;    
+    padding:3px;    
+	}
+	/*--------*/
+	/*Menu doc*/
+	#menuPrincipal
+	{	
+		width:100%;
+		margin:0;
+		padding:0;		
+	}		
+	#menuPrincipal ul#nav-doc li {    	
+    	width: 45%;
+	}	
+	#menuPrincipal ul#nav-doc .subs {   
+    width:130px;    
+	}
+	#menuPrincipal ul#nav-doc ul a {    
+    font-size:10px;      	
+    border-width:0 0 1px;
+    color:#000;    
+    padding:3px;    
+	}
+	#menuPrincipal ul#nav-doc a 
+	{    
+    	text-align: left;
+	}
+	/*--------*/
+	#galeria
+	{	
+		width:100%;
+		margin:0;
+		padding:0;		
+
+	}	
+	#contenidoCentro{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	#contenidoCentro #nav{
+		width: 100%;		
+		padding: 0;
+		margin: 0;
+	}
+	#contenidoCentro #nav li{
+		height: 30px;		
+		padding: 2%;		
+	}	
+	#contenidoCentro #panel1{
+		width: 100%;
+	}	
+	#formularios {
+		width:100%;
+	}
+	#formularios ul{
+		width:96%;
+	}
+	footer div
+	{	
+		font-size:0.4em;
+		background: #F5F5F5;		
+		border-top: solid 1px;				
+	}
+	#formularios a .button-flat-action
+	{
+		padding: 8px;
+		line-height: 10px;
+		height: 15px;
+	}
+	#formularios #botones button.button-flat-action 
+	{
+		padding: 8px;
+		line-height: 10px;
+		height: 30px;
+	}
+	#formularios h2{
+		font-size: 1.04em;
+	}
+	#formularios h3{
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom:  10px;
+
+	}
+	#formularios #botones1{
+		text-align: center;	
+		margin-left: 0px;
+	}
+	
+	#formularios #botones2{
+		text-align: center;	
+		margin-left: 0px;
+	}
+	#formularios #botones3{
+		text-align: center;	
+		margin-left: 0px;
+	}
+	#formularios #botones4{
+		text-align: center;	
+		margin-left: 0px;
+	}
+	#formularios #botones5{
+		text-align: center;	
+		margin-left: 0px;
+	}
+	#formularios #medio1{
+		margin-top: 20px;
+	}
+	#formularios #medio2{
+		margin-top: 20px;
+	}
+	#formularios #medio3{
+		margin-top: 20px;
+	}
+	#formularios #medio4{
+		margin-top: 20px;
+	}
+	#formularios #medio5{
+		margin-top: 20px;
+	}
+	#formularios #medioUser{
+		margin-top: 20px;		
+	}
+	#formularios #btnBuscarUser{
+		margin: 0;
+	}
+
+	#formularios #btnMeta
+	{		
+		margin-top: 15px;		
+		
+	}	
+}
