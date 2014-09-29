@@ -59,7 +59,7 @@
                         <ul>
                         <h3>Misión</h3>
                             <p>
-                                Ser la entidad pública que ejerce la rectoría y ejecuta políticas, regulaciones, programas y servicios para la inclusión social y atención durante el  ciclo de vida con prioridad en la población de niños, niñas, adolescentes, jóvenes, adultos mayores, personas con discapacidad y aquellos y aquellas que se encuentran en situación de pobreza, a fin de aportar a su movilidad Social y salida de la pobreza.
+                                Somos una carrera de las Ciencias Tecnológicas, que tiene como propósito formar profesionales competitivos y emprendedores, con sólidos conocimientos en el área de las ciencias computación, para resolver problemas relacionados con el tratamiento de la información, con estricta responsabilidad social bajo una visión ética y humanística para contribuir con el desarrollo integral del país.
                             </p>
                         </ul>                        
                     </li>                     
@@ -67,39 +67,28 @@
                         <ul>
                             <h3>Visión</h3>
                             <p>
-                                Establecer y ejecutar políticas, regulaciones, estrategias, programas y servicios para la atención durante el ciclo de vida, protección especial, aseguramiento universal no contributivo, movilidad Social e inclusión económica de grupos de atención prioritaria (niños, niñas, adolescentes, jóvenes, adultos mayores, personas con discapacidad) y aquellos que se encuentran en situación de pobreza y vulnerabilidad.
+                                 Ser una carrera reconocida a nivel nacional e internacional, por la calidad y competitividad de sus docentes y graduados, con alto desempeño profesional enfocado al área de computación e informática que trascienda por su relevancia en la investigación y desarrollo de proyectos técnicos mediante el uso eficiente de las Ciencias de la computación en beneficio de la sociedad.
                             </p>
                         </ul>
                     </li>                     
                     <li><a href="#">Objetivos</a>
                         <ul>
-                            <h3>Valores</h3>
+                            <h3>Objetivos</h3>
                             <p>
-                                La gestión del MIES se sustentará en los siguientes valores:
-                                <br/>Ética
-                                <br/>Transparencia
-                                <br/>Responsabilidad
-                                <br/>Honestidad
-                                <br/>Respeto
-                                <br/>Calidad
-                                <br/>Calidez
-                                <br/>Lealtad
-                                <br/>Eficiencia
-                                <br/>Eficacia
-                                <br/>Compromiso
-                                <br/>Trabajo en equipo.
-
+                                El graduado de la Carrera de Sistemas será capaz de desarrollar y evaluar sistemas informáticos, de control, automatización y comunicación cumpliendo estándares internacionales, integrando las ciencias de la computación en diversas áreas para generar soluciones informáticas pertinentes, a través de la investigación y la protección de los derechos de propiedad intelectual con un alto compromiso social.
                             </p>
                         </ul>
                     </li>
-                    <li><a href="#">Formación Contínua</a>
+                    <li><a href="#">Políticas </a>
                         <ul>
-                            <h3>Formación Contínua</h3>
+                            <h3>Políticas </h3>
                             <p>
-                                El Ministerio de Inclusión Económica y Social (MIES) es el responsable de la regulación de los servicios de Desarrollo Infantil Integral (DII) de niñas y niños menores de 3 años. 
-                                Con el propósito de mejorar la calidad  de los servicios de atención infantil, la Subsecretaría de Desarrollo Infantil Integral se encuentra implementando la Estrategia de Mejoramiento del Talento Humano, a través de programas de profesionalización y formación continua dirigidos a todo el personal responsable de la operación de las modalidades de atención infantil.
-                                Se busca fortalecer sus competencias técnicas y sus mecanismos de trabajo en territorio con otros actores institucionales, articulando  las políticas públicas desde la garantía de los derechos y servicios en las áreas de salud, higiene y nutrición, educación, protección infantil, participación familiar y comunitaria. 
-                                La política pública de Desarrollo Infantil determina el cumplimiento de una norma técnica, articulada a una serie de protocolos y herramientas que permiten la implementación y funcionamiento de servicios de calidad para los niños y niñas menores de tres años.
+                                 Formar profesionales dotados de competencias específicas para resolver problemas informáticos del entorno que contribuyan a la mejora en el proceso de toma de decisiones..
+-                                La formación de profesionales con valores éticos que contribuya al ejercicio profesional basado en los principios de buena fe, probidad, veracidad, honradez y lealtad.
+-                                Contribuir a la sociedad con profesionales que estén preparados en la gestión de proyectos informáticos.
+-                                Promover la vinculación con la sociedad para que nuestros estudiantes y egresados sean agentes del desarrollo económico, social, político en ámbito local, regional y nacional con proyección internacional.
+-                                El proceso de profesionalización tendrá en el pregrado mallas curriculares acorde con el desarrollo técnico y científico en el área de las ciencias informáticas con un alto nivel de pertinencia con el entorno, por lo que las mismas serán flexibles a los cambios que se producen en la sociedad contemporánea y el reconocimiento de los derechos.
+
                             </p>
                         </ul>
                     </li>                   
@@ -112,7 +101,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
+            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2> 
         </div>        
     </footer>
     <div id='frmLogin' title="Ingreso de Usuarios">
@@ -126,7 +115,7 @@
         </div>               
         <div id="botones1">
             <a href="#" id="btnIngresar" class="button glow button-rounded button-flat-action"><i class="fa fa-check"></i> Ingresar</a>
-            <!--<a href="#" id="btnRegistro" class="button glow button-rounded button-flat-action"><i class="fa fa-plus"></i> Registrarse</a>!-->                           
+            <a href="#" id="btnRegistro" class="button glow button-rounded button-flat-action"><i class="fa fa-plus"></i> Registrarse</a>
         </div>       
 </div>  
 </body>
