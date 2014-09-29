@@ -1,0 +1,8 @@
+benchmark
+
+puerbas de aplicaciones base
+pruebas playback
+prueba sintentica
+prueba de insperccion...
+
+pcmark 8 aplicacion para pruebas base...

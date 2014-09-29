@@ -336,6 +336,45 @@ INSERT INTO auditoria_sistema VALUES ('169','willy 1','2014-07-14','accesos','Up
 INSERT INTO auditoria_sistema VALUES ('170','willy 1','2014-07-14','accesos','Update','9,Willy Narvaez,Graficos Estadisticos,a','9,Willy Narvaez,Graficos Estadisticos,a','Modificacion de un acceso del usuario por algun administrador');
 INSERT INTO auditoria_sistema VALUES ('171','willy 1','2014-07-14',NULL,'Descarga de archivos',NULL,NULL,'Descarga del documento(bitacora) por el usuario Willy Narvaez');
 INSERT INTO auditoria_sistema VALUES ('172','willy 1','2014-07-14',NULL,'Backup',NULL,NULL,'Respaldo de la base de datos por el usuario Willy Narvaez');
+INSERT INTO auditoria_sistema VALUES ('173','willy 1','2014-07-20','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-14,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-20,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('174','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-20,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('175','willy 1','2014-07-21',NULL,'Descarga de archivos',NULL,NULL,'Descarga del documento por el usuario Willy Narvaez');
+INSERT INTO auditoria_sistema VALUES ('176','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('177','willy 1','2014-07-21','usuario','Update',NULL,'2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('178','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('179','willy 1','2014-07-21','usuario','Update',NULL,'2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('180','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('181','willy 1','2014-07-21','usuario','Update',NULL,'2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('182','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('183','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('184','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('185','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('186','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('187','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('188','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('189','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('190','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('191','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,o-,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('192','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('193','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,o-,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('194','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('195','willy 1','2014-07-21','usuario','Update','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador,o-,123123123,masculino,soltero','2,l112,lUIS pERES,Ibarra,Otavalo,,,w_nar@f.fcom,ADMINISTRADOR,luis,2014-07-14,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('196','willy 1','2014-07-21','clave','Update','2,MTIz,lUIS pERES','2,MTIz,lUIS pERES','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('197','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador,,,,','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('198','willy 1','2014-07-21','clave','Update','1,MTIz,Willy Narvaez','1,MTIz,Willy Narvaez','Modificacion de la clave del usuario');
+INSERT INTO auditoria_sistema VALUES ('199','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('200','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('201','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('202','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('203','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('204','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('205','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('206','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('207','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador,a+,2006-07-06,femenino,viudo','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('208','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('209','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador,a+,2006-07-06,femenino,viudo','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador,a+,2006-07-06,femenino,viudo','Modificacion de los datos del usuario');
+INSERT INTO auditoria_sistema VALUES ('210','willy 1','2014-07-21','usuario','Update','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','1,Wi,Willy Narvaez,Otavalo,Otavalo,062922992,091212121,w_narvaez@hotamil.com,ADMINISTRADOR,willy,2014-07-21,Uniandes,Administrador,Administrador','Ingreso del usuario al sistema');
+INSERT INTO auditoria_sistema VALUES ('211','willy 1','2014-07-21',NULL,'Backup',NULL,NULL,'Respaldo de la base de datos por el usuario Willy Narvaez');
 
 
 --
@@ -441,8 +480,8 @@ usuario int4
 -- Creating data for 'clave'
 --
 
-INSERT INTO clave VALUES ('1','MTIz','1');
 INSERT INTO clave VALUES ('2','MTIz','2');
+INSERT INTO clave VALUES ('1','MTIz','1');
 
 
 --
@@ -634,7 +673,7 @@ ALTER TABLE ONLY  tipo_documento  ADD CONSTRAINT  tipo_documento_pkey  PRIMARY K
 
 DROP TABLE tbl_audit CASCADE;
 CREATE SEQUENCE tbl_audit_pk_audit_seq
-    START WITH 1027
+    START WITH 1064
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
@@ -773,6 +812,43 @@ INSERT INTO tbl_audit VALUES ('1023','accesos','U','(6,1,6,a)','(6,1,6,a)','2014
 INSERT INTO tbl_audit VALUES ('1024','accesos','U','(7,1,7,p)','(7,1,7,a)','2014-07-14 17:26:53.425818','postgres');
 INSERT INTO tbl_audit VALUES ('1025','accesos','U','(8,1,8,a)','(8,1,8,a)','2014-07-14 17:26:53.447988','postgres');
 INSERT INTO tbl_audit VALUES ('1026','accesos','U','(9,1,9,a)','(9,1,9,a)','2014-07-14 17:26:53.470178','postgres');
+INSERT INTO tbl_audit VALUES ('1027','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-14,Uniandes,1,1)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-20,Uniandes,1,1)','2014-07-20 11:18:14.197415','postgres');
+INSERT INTO tbl_audit VALUES ('1028','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-20,Uniandes,1,1)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1)','2014-07-21 10:26:27.689525','postgres');
+INSERT INTO tbl_audit VALUES ('1029','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1)','2014-07-21 10:44:19.928432','postgres');
+INSERT INTO tbl_audit VALUES ('1030','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,2,luis,2014-07-14,Uniandes,1,1,,,,)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:17:30.806856','postgres');
+INSERT INTO tbl_audit VALUES ('1031','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:17:30.851668','postgres');
+INSERT INTO tbl_audit VALUES ('1032','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:17:42.277823','postgres');
+INSERT INTO tbl_audit VALUES ('1033','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:17:42.319079','postgres');
+INSERT INTO tbl_audit VALUES ('1034','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:17:42.351488','postgres');
+INSERT INTO tbl_audit VALUES ('1035','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:17:42.407393','postgres');
+INSERT INTO tbl_audit VALUES ('1036','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:19:12.50482','postgres');
+INSERT INTO tbl_audit VALUES ('1037','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:19:12.552794','postgres');
+INSERT INTO tbl_audit VALUES ('1038','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:19:12.585581','postgres');
+INSERT INTO tbl_audit VALUES ('1039','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:19:12.608373','postgres');
+INSERT INTO tbl_audit VALUES ('1040','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','2014-07-21 11:19:12.643311','postgres');
+INSERT INTO tbl_audit VALUES ('1041','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:19:12.663853','postgres');
+INSERT INTO tbl_audit VALUES ('1042','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,"",123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','2014-07-21 11:20:24.602982','postgres');
+INSERT INTO tbl_audit VALUES ('1043','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:20:24.654198','postgres');
+INSERT INTO tbl_audit VALUES ('1044','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','2014-07-21 11:20:24.691307','postgres');
+INSERT INTO tbl_audit VALUES ('1045','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:20:24.709302','postgres');
+INSERT INTO tbl_audit VALUES ('1046','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','2014-07-21 11:20:24.742791','postgres');
+INSERT INTO tbl_audit VALUES ('1047','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:20:24.778248','postgres');
+INSERT INTO tbl_audit VALUES ('1048','usuario','U','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','(2,l112,"lUIS pERES",Ibarra,1,"","",w_nar@f.fcom,1,luis,2014-07-14,Uniandes,1,1,o-,123123123,masculino,soltero)','2014-07-21 11:20:24.807368','postgres');
+INSERT INTO tbl_audit VALUES ('1049','clave','U','(2,MTIz,2)','(2,MTIz,2)','2014-07-21 11:20:24.831473','postgres');
+INSERT INTO tbl_audit VALUES ('1050','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,,,,)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,masculino,soltero)','2014-07-21 11:26:54.579645','postgres');
+INSERT INTO tbl_audit VALUES ('1051','clave','U','(1,MTIz,1)','(1,MTIz,1)','2014-07-21 11:26:54.623112','postgres');
+INSERT INTO tbl_audit VALUES ('1052','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,masculino,soltero)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,femenino,divorciado)','2014-07-21 11:35:36.697972','postgres');
+INSERT INTO tbl_audit VALUES ('1053','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,femenino,divorciado)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,femenino,divorciado)','2014-07-21 11:35:43.125079','postgres');
+INSERT INTO tbl_audit VALUES ('1054','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,o-,2014-07-09,femenino,divorciado)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:36:36.002914','postgres');
+INSERT INTO tbl_audit VALUES ('1055','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:36:42.858615','postgres');
+INSERT INTO tbl_audit VALUES ('1056','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:40:09.945868','postgres');
+INSERT INTO tbl_audit VALUES ('1057','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:40:24.627086','postgres');
+INSERT INTO tbl_audit VALUES ('1058','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:40:29.563923','postgres');
+INSERT INTO tbl_audit VALUES ('1059','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:41:13.56046','postgres');
+INSERT INTO tbl_audit VALUES ('1060','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:41:18.159032','postgres');
+INSERT INTO tbl_audit VALUES ('1061','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:42:29.272749','postgres');
+INSERT INTO tbl_audit VALUES ('1062','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:42:33.54552','postgres');
+INSERT INTO tbl_audit VALUES ('1063','usuario','U','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','(1,Wi,"Willy Narvaez",Otavalo,1,062922992,091212121,w_narvaez@hotamil.com,1,willy,2014-07-21,Uniandes,1,1,a+,2006-07-06,femenino,viudo)','2014-07-21 11:44:57.3958','postgres');
 
 
 --
@@ -851,15 +927,19 @@ nick_usuario text,
 fecha text,
 institucion text,
 id_categoria int4,
-id_departamento int4
+id_departamento int4,
+tipo_sangre text,
+fecha_nacimiento text,
+sexo text,
+estado_civil text
 );
 
 --
 -- Creating data for 'usuario'
 --
 
-INSERT INTO usuario VALUES ('2','l112','lUIS pERES','Ibarra','1',NULL,NULL,'w_nar@f.fcom','2','luis','2014-07-14','Uniandes','1','1');
-INSERT INTO usuario VALUES ('1','Wi','Willy Narvaez','Otavalo','1','062922992','091212121','w_narvaez@hotamil.com','1','willy','2014-07-14','Uniandes','1','1');
+INSERT INTO usuario VALUES ('2','l112','lUIS pERES','Ibarra','1',NULL,NULL,'w_nar@f.fcom','1','luis','2014-07-14','Uniandes','1','1','o-','123123123','masculino','soltero');
+INSERT INTO usuario VALUES ('1','Wi','Willy Narvaez','Otavalo','1','062922992','091212121','w_narvaez@hotamil.com','1','willy','2014-07-21','Uniandes','1','1','a+','2006-07-06','femenino','viudo');
 
 
 --

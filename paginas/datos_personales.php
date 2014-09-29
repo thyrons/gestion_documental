@@ -126,6 +126,33 @@
                         <select class="grid_3" id="departamento_user" name="departamento_user">                    
                         </select>                    
                         <div class="clear"></div><br>
+                        <h3 class="grid_2"><label for="tipo_sangre_user">Tipo de Sangre:</label></h3>
+                        <select class="grid_2" id="tipo_sangre_user" name="tipo_sangre_user" required>                    
+                            <option value="o-"> O -</option>
+                            <option value="o+"> O +</option>
+                            <option value="a-"> A -</option>
+                            <option value="a+"> A +</option>
+                            <option value="b-"> B -</option>
+                            <option value="b+"> B +</option>
+                            <option value="ab-"> AB -</option>
+                            <option value="ab+"> AB +</option>
+                        </select>
+                        <h3 class="grid_2"><label for="fecha_nacimiento">Fecha Nacimiento:</label></h3>
+                        <input type="text" class="grid_3" id="fecha_nacimiento" name="fecha_nacimiento" required/>                                
+                        <div class="clear"></div><br>
+                        <h3 class="grid_2"><label for="sexo">Sexo:</label></h3>
+                        <select class="grid_2" id="sexo" name="sexo" required>                    
+                            <option value="masculino"> Masculino</option>   
+                            <option value="femenino"> Femenino</option>
+                        </select>
+                        <h3 class="grid_2"><label for="estado_civil">Estado Civil:</label></h3>
+                        <select class="grid_3" id="estado_civil" name="estado_civil" required>                    
+                            <option value="soltero"> Soltero (a)</option>   
+                            <option value="casado"> Casado (a)</option>
+                            <option value="divorciado"> Divorciado (a)</option>
+                            <option value="viudo"> Viudo (a)</option>
+                        </select>
+                        <div class="clear"></div><br>
                         <div id="botones" class="grid_5 prefix_3 alpha omega">
                             <button id="bntModificar" class="button glow button-rounded button-flat-action"><i class="fa fa-save"></i> Modificar datos usuario</button>                        
                         </div>    
@@ -136,7 +163,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2>    
+            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
         </div>        
     </footer>
 </body>

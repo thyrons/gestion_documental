@@ -52,6 +52,7 @@ function inicio(){
   $("#btn_reporte_usuario_peso").on("click",defecto);
   $("#btn_reporteDepartamento").on("click",defecto);
   $("#btn_reporteMes").on("click",defecto);
+  $("#btn_reporteUsuarios").on("click",defecto);
  
   $("#frmGraficoPeso").dialog(dialogo);  
 	$( "#txt_fecha1" ).val(output);
@@ -187,6 +188,10 @@ function inicio(){
     $("#btn_reporte_sistema").click(function (){
       window.open("../reportes/auditoria_interna.php?inicio="+$("#txt_fecha1").val()+"&fin="+$("#txt_fecha2").val());
     });
+    $("#btn_reporteUsuarios").click(function (){
+      window.open("../reportes/reporte_usuarios.php");
+    });
+
     $("#btnCerrarVentana").click(function (){
         $("#frmGraficoPeso").dialog('close'); 
     });      
@@ -551,5 +556,15 @@ $("#btn_reporteMes").click(function (){
     $("#frmGraficoPeso").dialog('open');
   });
   ///////////////////////////
-   
+  $.ajax({
+    type: "POST",
+    dataType: 'json',
+    url: "../procesos/totales.php",    
+    success: function(response) {
+      var data=response;
+      $("#totalArchivos").val(" "+data[0]+" Archivo(s)");
+      $("#totalKbs").val(" "+data[1]+" Kbs");
+    }  
+  }); 
+  /////////////////////////////
 }

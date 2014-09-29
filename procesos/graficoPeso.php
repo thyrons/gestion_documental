@@ -1,12 +1,13 @@
 <?php
 include 'base.php';
 conectarse();
+session_start();
 $fecha1=$_GET['fecha1']. " "."00:00:00";
 $fecha2=$_GET['fecha2']." "."23:59:59";
 $lista1;
 $lista2;
 $contador=0;
-$result = pg_query("SELECT fecha_cambio,peso FROM bitacora where fecha_cambio between '$fecha1' and '$fecha2'");
+$result = pg_query("SELECT fecha_cambio,peso FROM bitacora where fecha_cambio between '$fecha1' and '$fecha2' and id_usuario='$_SESSION[id]'");
 while($row = pg_fetch_row($result)) {	
 	$fecha=date("Y-m-d",strtotime($row[0]));	
 	$peso=$row[1];	
@@ -35,15 +36,15 @@ function buscar($fecha,$peso){
 		else{			
 			$lista1[$contador]=$fecha;
 			$lista2[$contador]=$peso;
+			$contador++;
 		}
-		$contador++;
 	}	
 
 }
 //print_r($lista1);
 //print_r($lista2);
 for($f=0;$f<count($lista1);$f++){
-	echo $lista1[$f] . "/" . ($lista2[$f]/1024). "/" ;
+	echo $lista1[$f] . "/" . number_format(($lista2[$f]/1024), 2, '.', ''). "/" ;
 }
 
 ?>

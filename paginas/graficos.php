@@ -138,10 +138,14 @@
                         <a href="#" id="btn_reporteMes" class="button glow button-rounded button-flat-action"><i class="fa fa-print"></i> Reporte</a>            
                     </fieldset> 
                     <fieldset>
-                        <legend>Descargar Archivos de la base</legend> 
+                        <legend>Archivos almacenados</legend> 
                         <input id="totalArchivos" type="text" readonly>
-                        <input id="totalKbs" type="text" readonly>                                                                       
-                        
+                        <input id="totalKbs" type="text" readonly>     
+                    </fieldset> 
+                    <fieldset>
+                        <legend>Reporte de usuarios del Sistema</legend> 
+                        <label>Usuarios almacenados en la base de datos</label>
+                        <a href="#" id="btn_reporteUsuarios" class="button glow button-rounded button-flat-action"><i class="fa fa-print"></i> Reporte Usuarios</a>                                                                              
                     </fieldset> 
                 </div>                                   
             </div>                                                               
@@ -149,7 +153,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2>    
+            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
         </div>        
     </footer>
 </body>

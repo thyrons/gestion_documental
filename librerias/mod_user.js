@@ -3,7 +3,23 @@ $(document).tooltip();
 function defecto(e){
 	e.preventDefault();
 };
+var d = new Date();
+var month = d.getMonth()+1;
+var day = d.getDate();
+var output = d.getFullYear() + '-' +
+    ((''+month).length<2 ? '0' : '') + month + '-' +
+    ((''+day).length<2 ? '0' : '') + day;
+var fecha={
+   dateFormat: 'yy-mm-dd',
+   changeYear: true,
+   changeMonth: true,
+   showButtonPanel: true,
+   showOtherMonths: true,
+   selectOtherMonths: true,   
+};
 function inicio(){	
+	$( "#fecha_nacimiento" ).val(output);
+	$( "#fecha_nacimiento" ).datepicker(fecha);
 	var cuantosLi = 0;
         jQuery("ul#nav > li").each(function(index) {
          cuantosLi = cuantosLi+1;
@@ -50,6 +66,10 @@ function inicio(){
 	        $("#institucion").val(data[12]);
 	        $("#categoria_user").val(data[13]);
 	        $("#departamento_user").val(data[14]);
+	        $("#tipo_sangre_user").val(data[15]);
+	        $("#fecha_nacimiento").val(data[16]);
+	        $("#sexo").val(data[17]);
+	        $("#estado_civil").val(data[18]);
 	    }
 	}); 
 	/* carga el usuario a modifcar*/

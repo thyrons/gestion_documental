@@ -1,5 +1,19 @@
 $(document).on("ready", inicio);
 $(document).tooltip();
+var d = new Date();
+var month = d.getMonth()+1;
+var day = d.getDate();
+var output = d.getFullYear() + '-' +
+    ((''+month).length<2 ? '0' : '') + month + '-' +
+    ((''+day).length<2 ? '0' : '') + day;
+var fecha={
+   dateFormat: 'yy-mm-dd',
+   changeYear: true,
+   changeMonth: true,
+   showButtonPanel: true,
+   showOtherMonths: true,
+   selectOtherMonths: true,   
+};
 function defecto(e){
 	e.preventDefault();
 };
@@ -15,6 +29,8 @@ function buscar(){
 	$("#medioUser").show("slow");	
 }
 function inicio(){	
+	$( "#fecha_nacimiento" ).val(output);
+	$( "#fecha_nacimiento" ).datepicker(fecha);
 	var cuantosLi = 0;
         jQuery("ul#nav > li").each(function(index) {
          cuantosLi = cuantosLi+1;
@@ -58,7 +74,7 @@ function inicio(){
 	jQuery("#list").jqGrid({
         url: '../xml/xmlUsuario.php',
         datatype: 'xml',
-        colNames: ['Id Pais', 'Código Usuario', 'Nombres Completos', 'Teléfono', 'Celular', 'Dirección', 'Correo Electrónico', 'id_tipo_user', 'Tipo de Usuario','Nombre de usuario','id_pais', 'Nombre País', 'id_provincia', 'Nombre Provincia','id_ciudad','Nombre Ciudad','Contraseña','Institución','id_categoria','Categoría','id_departamento','Departamento'],
+        colNames: ['Id Pais', 'Código Usuario', 'Nombres Completos', 'Teléfono', 'Celular', 'Dirección', 'Correo Electrónico', 'id_tipo_user', 'Tipo de Usuario','Nombre de usuario','id_pais', 'Nombre País', 'id_provincia', 'Nombre Provincia','id_ciudad','Nombre Ciudad','Contraseña','Institución','id_categoria','Categoría','id_departamento','Departamento','Tipo Sangre','Fecha Nacimiento','Sexo','Estado Civil'],
         colModel: [
             {name: 'id_user', index: 'id_user', editable: true, align: 'center', search: false,editoptions: {readonly: 'readonly', size: 40}, editrules: {edithidden: false}},            
             {name: 'cod_user', index: 'cod_user', editable: false, align: 'center', search: true,},            
@@ -80,8 +96,12 @@ function inicio(){
             {name: 'institucion', index: 'institucion', editable: false, align: 'center', search: false,},     
             {name: 'id_categoria_user', index: 'id_categoria_user', editable: false, align: 'center', search: false,editoptions: {readonly: 'readonly', size: 40},hidden: true, editrules: {edithidden: false}},                        
             {name: 'categoria_user', index: 'categoria_user', editable: false, align: 'center', search: false,},                        
-            {name: 'departamento_user', index: 'departamento_user', editable: false, align: 'center', search: false,editoptions: {readonly: 'readonly', size: 40},hidden: true, editrules: {edithidden: false}},                        
-            {name: 'departmento', index: 'departmento', editable: false, align: 'center', search: false,},                        
+            {name: 'id_departamento', index: 'id_departamento', editable: false, align: 'center', search: false,editoptions: {readonly: 'readonly', size: 40},hidden: true, editrules: {edithidden: false}},                        
+            {name: 'departamento_user', index: 'departamento_user', editable: false, align: 'center', search: false,editoptions: {readonly: 'readonly', size: 40}},                        
+            {name: 'tipo_sangre_user', index: 'tipo_sangre_user', editable: false, align: 'center', search: false,},                        
+            {name: 'fecha_nacimiento', index: 'fecha_nacimiento', editable: false, align: 'center', search: false,},                        
+            {name: 'sexo', index: 'sexo', editable: false, align: 'center', search: false,},                        
+            {name: 'estado_civil', index: 'estado_civil', editable: false, align: 'center', search: false,},                        
         ],
         rowNum: 10,
         rowList: [10,20,30],
@@ -146,7 +166,7 @@ function inicio(){
    	
 }
 function proceso(){
-	if($("#nombre_user").val()!="" && $("#dir_user").val()!="" && $("#mail_user").val()!="" && $("#user_name").val()!="" && $("#clave_user").val()!=""){
+	if($("#nombre_user").val()!="" && $("#dir_user").val()!="" && $("#mail_user").val()!="" && $("#user_name").val()!="" && $("#clave_user").val()!="" && $("#fecha_nacimiento").val()!=""){
 		var texto=$("#btnGuardar").text();		
 		if(texto==" Guardar"){	
 			$("#form1").submit(function (e){		

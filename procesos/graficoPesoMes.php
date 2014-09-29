@@ -6,9 +6,9 @@ $lista2;
 $contador=0;
 $mes=0;
 $tem='';
-$result = pg_query("SELECT fecha_cambio,peso FROM bitacora");
+$result = pg_query("SELECT fecha_cambio,peso FROM bitacora order by fecha_cambio asc");
 while($row = pg_fetch_row($result)) {		
-	$mes=intval(substr($row[0],5,2));		
+	$mes=intval(substr($row[0],5,2));	
 	if($mes>=intval($_GET['mes1']) && $mes<=intval($_GET['mes2'])){		
 		if($mes=='01'){
 			$temp='Enero';
@@ -75,15 +75,15 @@ function buscar($fecha,$peso){
 		else{			
 			$lista1[$contador]=$fecha;
 			$lista2[$contador]=$peso;
+			$contador++;
 		}
-		$contador++;
 	}	
 
 }
 //print_r($lista1);
 //print_r($lista2);
 for($f=0;$f<count($lista1);$f++){
-	echo $lista1[$f] . "/" . ($lista2[$f]/1024). "/" ;
+	echo $lista1[$f] . "/" . number_format(($lista2[$f]/1024), 2, '.', ''). "/" ;
 }
 
 ?>

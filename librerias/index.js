@@ -20,8 +20,8 @@ function inicio(){
 	$("#sistema").click(function (){
 		$("#frmLogin").dialog("open");
 	});
-	$("#uniandes").click(function (){
-		window.open("http://www.uniandesonline.edu.ec/uniandes/ibaindex.html");
+	$("#mies").click(function (){
+		window.open("http://www.inclusion.gob.ec/");
 	});
 	$("#btnIngresar").on("click",entrar);
 	$('input[type=text]').on("keyup",enter);

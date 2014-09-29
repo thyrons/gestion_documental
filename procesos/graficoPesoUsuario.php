@@ -38,15 +38,15 @@ function buscar($fecha,$peso){
 		else{			
 			$lista1[$contador]=$fecha;
 			$lista2[$contador]=$peso;
+			$contador++;
 		}
-		$contador++;
 	}	
 
 }
 //print_r($lista1);
 //print_r($lista2);
 for($f=0;$f<count($lista1);$f++){
-	echo $lista1[$f] . "/" . ($lista2[$f]/1024). "/" ;
+	echo $lista1[$f] . "/" . number_format(($lista2[$f]/1024), 2, '.', ''). "/" ;
 }
 
 ?>
