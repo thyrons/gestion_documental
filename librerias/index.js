@@ -47,7 +47,7 @@ function entrar(){
 			val=data;
 			if(val==0)
 			{
-				 location.href = "../paginas/doc_enviados.php";
+				 location.href = "../paginas/bienvenido.php";
 			}   
 			if(val==1)
 			{					

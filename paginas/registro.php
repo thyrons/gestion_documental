@@ -93,7 +93,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2> 
+            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
         </div>        
     </footer>
 </body>

@@ -1,7 +1,7 @@
 $(document).on("ready",inicio);
 $(document).tooltip();
 function defecto(e){
-	e.preventDefault();
+  e.preventDefault();
 };
 var d = new Date();
 var month = d.getMonth()+1;
@@ -36,12 +36,12 @@ function inicio(){
     });
     cuantosLi=cuantosLi+0.5;
   $("ul#nav > li").css('width','calc(100%/'+cuantosLi+')');    
-	$("#bandeja").on("click",defecto);			
-	$("#doc_recibidos").on("click",defecto);
-	$("#administracion").on("click",defecto);
-	$("#editar_d").on("click",defecto);
-	$("#cambiar_c").on("click",defecto);
-	$("#btn_reporte_fecha").on("click",defecto);
+  $("#bandeja").on("click",defecto);      
+  $("#doc_recibidos").on("click",defecto);
+  $("#administracion").on("click",defecto);
+  $("#editar_d").on("click",defecto);
+  $("#cambiar_c").on("click",defecto);
+  $("#btn_reporte_fecha").on("click",defecto);
   $("#btn_reporte_fecha_num").on("click",defecto);
   $("#btn_reporte_tipo").on("click",defecto);
   $("#btn_reporte_base_datos").on("click",defecto);
@@ -55,23 +55,23 @@ function inicio(){
   $("#btn_reporteUsuarios").on("click",defecto);
  
   $("#frmGraficoPeso").dialog(dialogo);  
-	$( "#txt_fecha1" ).val(output);
-	$( "#txt_fecha2" ).val(output);
+  $( "#txt_fecha1" ).val(output);
+  $( "#txt_fecha2" ).val(output);
   $( "#txt_fecha3" ).val(output);
   $( "#txt_fecha4" ).val(output);
   $( "#txt_fecha5" ).val(output);
   $( "#txt_fecha6" ).val(output);
   $( "#txt_fecha7" ).val(output);
   $( "#txt_fecha8" ).val(output);
-	$( "#txt_fecha1" ).datepicker({
+  $( "#txt_fecha1" ).datepicker({
       defaultDate: "+1w",
       changeMonth: true,
       numberOfMonths: 1,
       dateFormat: 'yy-mm-dd',
-   	  changeYear: true,   	  
-   	  showButtonPanel: true,
-   	  showOtherMonths: true,
-   	  selectOtherMonths: true,   
+      changeYear: true,       
+      showButtonPanel: true,
+      showOtherMonths: true,
+      selectOtherMonths: true,   
       onClose: function( selectedDate ) {
         $( "#txt_fecha2" ).datepicker( "option", "minDate", selectedDate );
       }
@@ -81,10 +81,10 @@ function inicio(){
       changeMonth: true,
       numberOfMonths: 1,
       dateFormat: 'yy-mm-dd',
-   	  changeYear: true,   	  
-   	  showButtonPanel: true,
-   	  showOtherMonths: true,
-   	  selectOtherMonths: true,   
+      changeYear: true,       
+      showButtonPanel: true,
+      showOtherMonths: true,
+      selectOtherMonths: true,   
       onClose: function( selectedDate ) {
         $( "#txt_fecha1" ).datepicker( "option", "maxDate", selectedDate );
       }

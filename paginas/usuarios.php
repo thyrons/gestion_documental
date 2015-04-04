@@ -45,18 +45,18 @@
             <div class="grid_12" id="formularios">     
                 <form id="form1" method="post">                                 
                     <h2 class="grid_6 suffix_3 prefix_3 omega alpha"><label>INGRESO DE USUARIOS</label></h2>           <input type="hidden" class="grid_3" id="id_user" name="id_user" required/>     
-                    <h3 class="grid_2" ><label for="cod_user">Código Usuario:</label></h3>
-                    <input type="text" class="grid_3" id="cod_user" name="cod_user" readonly />
+                    <h3 class="grid_2" ><label for="cod_user">Cedula Usuario:</label></h3>
+                    <input type="text" class="grid_3" id="cod_user" name="cod_user"required />
                     <h3 class="grid_3"><label for="nombre_user">Nombre Completo:</label></h3>
                     <input type="text" class="grid_4" id="nombre_user" name="nombre_user" required/>                   
                     <div class="clear"></div><br>
                     <h3 class="grid_2"><label for="tel_user">Teléfono Usuario:</label></h3>
-                    <input type="text" class="grid_3" id="tel_user" name="tel_user" />
+                    <input type="text" class="grid_3" id="tel_user" name="tel_user"required />
                     <h3 class="grid_3"><label for="dir_user">Dirección Usuario:</label></h3>
                     <input type="text" class="grid_4" id="dir_user" name="dir_user" required/>
                     <div class="clear"></div><br>
                     <h3 class="grid_2"><label for="cel_user">Celular Usuario:</label></h3>
-                    <input type="text" class="grid_3" id="cel_user" name="cel_user" />
+                    <input type="text" class="grid_3" id="cel_user" name="cel_user"required />
                     <h3 class="grid_3"><label for="mail_user">Email Usuario:</label></h3>
                     <input type="email" class="grid_4" id="mail_user" name="mail_user" required/>
                     <div class="clear"></div><br>
@@ -134,7 +134,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2> 
+            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
         </div>        
     </footer>
 </body>

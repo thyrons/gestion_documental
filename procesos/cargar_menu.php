@@ -12,7 +12,7 @@
 
                 ////////dibujo el menu///                
                 echo "<ul id='nav'>";
-                echo "<li><a href='index.php'><img src='../imagenes/home.png' /> Inicio</a></li>";
+                echo "<li><a href='../paginas/bienvenido.php'><img src='../imagenes/home.png' /> Inicio</a></li>";
                 $contador++;
                 /////////////
                 if($matrizB[0]=="a"){

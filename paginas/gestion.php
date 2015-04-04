@@ -150,7 +150,7 @@
                         <textarea class="grid_3 alpha omega" id="observaciones_archivo" rows="4" name="observaciones_archivo" ></textarea>                            
                         <div class="clear"></div>
                         <hr>
-                        <div  class="grid_5 alpha omega prefix_2">
+                        <!-- <div  class="grid_5 alpha omega prefix_2">
                         <table id="tablaMeta">                            
                             <thead>
                                 <tr>
@@ -166,7 +166,7 @@
                         </div>
                          <div class="grid_2 alpha omega">
                             <a href="#" id="btnMeta" class="button glow button-rounded button-flat-action"><i class="fa fa-plus-square"></i> MetaDatos</a>                            
-                        </div>                        
+                        </div>         -->                
                     </div>
                 </form>                                   
             </div>                                                               
@@ -174,7 +174,7 @@
     </header>
     <footer class="container">
         <div class="grid_12">
-            <h2>Copyrigth 2014 Willy Narváez Universidad Regional Autónoma de los Andes "Uniandes"</h2> 
+            <h2>Copyrigth 2014 Xavier Quilka MIES(Ministerio de Inclusión Económica y Social)</h2>    
         </div>        
     </footer>
 </body>
@@ -193,14 +193,14 @@
     <div id="pager"></div> 
     <br>                                  
 </div>  
-<div id='frmMeta' title="Ingreso de Metados">   
+<!-- <div id='frmMeta' title="Ingreso de Metados">   
     <h3 align="center">METADATOS DEL DOCUMENTO</h3>                             
         <input type="text" name="" id="NombreM" placeholder="Nombre Etiqueta">        
         <input type="text" name="" id="DescM" placeholder="Descripcion de la Etiqueta">
         <br>
         <a href="#" id="btnAgregarMeta" class="button glow button-rounded button-flat-action"><i class="fa fa-sign-out"></i> Agregar</a>                                       
         <br>                                  
-</div>  
+</div>   -->
 <div id='frmCambioPass' title="Cambio de clave de acceso">
         <div class="input-group margin-bottom-sm">
             <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>

@@ -163,6 +163,8 @@ function inicio(){
    	$("#clave_user").blur(function (e){   		
    		$("#clave_user").val(encripta=Base64.encode($("#clave_user").val()));//encripto la cadena
    	});
+
+   	$("#cod_user").on("keyup",cedula);
    	
 }
 function proceso(){
@@ -209,4 +211,46 @@ function proceso(){
 	else{
 		alert("Llene los campos requeridos antes de continuar");
 	}			
+}
+function cedula(){
+    var ci = $("#cod_user").val();
+    var pares = 0;
+    var impares = 0;
+    var cont = 0;
+    var total = 0;
+    var residuo = 0;
+    if ($("#cod_user").val().length == 10) {
+    	
+        for (var i = 0; i < 9; i++) {
+            if (i % 2 === 0) {
+                if (parseInt(ci.charAt(i)) * 2 > 9) {
+                    cont = (parseInt(ci.charAt(i)) * 2) - 9;
+                }
+                else {
+                    cont = (parseInt(ci.charAt(i)) * 2);
+                }
+                impares = impares + cont;
+            }
+            else {
+                pares = pares + parseInt(ci.charAt(i));
+            }
+        }
+        total = pares + impares;
+        if (total % 10 === 0) {
+        }
+        else {
+            residuo = total % 10;
+            residuo = 10 - residuo;
+            if (parseInt(ci.charAt(9)) === residuo) {
+            }
+            else {
+                alert("Error.... Cedula Incorrecta");
+                $("#cod_user").val("");
+            }
+        }
+    }
+    if ($("#cod_user").val().length > 10) {
+    	alert("Error.... demasiados caractéres");
+        $("#cod_user").val("");
+    }
 }
