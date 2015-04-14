@@ -11,7 +11,7 @@ if($_SESSION['nivel']=="ADMINISTRADOR"){
     $consulta=pg_query("select id_archivo,nombre_doc from archivo,tipo_documento where archivo.id_tipo_doc=tipo_documento.id_tipo_documento");       
     while($row=pg_fetch_row($consulta)){
         $ext="";
-        if($version=="on"){           
+        if($version=="on"){
             $consulta1=pg_query("select id_bitacora,fecha_cambio,asunto_cambio,observaciones,nombre_archivo,codigo_archivo,nombre_departamento,referencia,archivo.id_archivo from bitacora,archivo,departamento where bitacora.id_archivo=archivo.id_archivo and departamento.id_departamento=bitacora.id_departamento and archivo.id_archivo='$row[0]'");                        
             while($row1=pg_fetch_row($consulta1)){                 
                 $document = '../archivos/'.$row1[7];                     
